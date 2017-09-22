@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    background-color: #F8F8FF;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1 {
+    color: #72AAEE;
+    font-size: 72px;
+    margin: 0;
+}
+
+.name-bar {
+    height: 5px;
+    background-color: #72AAEE;
+}
+
+.content p {
+    line-height: 1.5em;
+}
+
+.content a {
+    color: #72AAEE;
+    font-weight: 500;
+}
+
+.content a:link, .content a:visited {
+    text-decoration: none;
+}
+
+.content a:hover, .content a:active {
+    text-decoration: underline;
+}
